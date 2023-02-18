@@ -53,6 +53,7 @@ header {
     color:#F9FAF8;
     background-color: #3882F6;
     padding: 4px 16px;
+    border-radius: 5px;
 }
 
 .right {
