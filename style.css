@@ -35,3 +35,24 @@ header {
 .left, .right {
     flex: 1;
 }
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    color:#F9FAF8;
+    background-color: #3882F6;
+}
+
+.left {
+    background-color: grey;
+    color: #F9FAF8;
+}
