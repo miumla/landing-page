@@ -25,3 +25,13 @@ header {
     align-items: center;
     padding: 8px 120px;
 }
+
+.hero {
+    background-color: #1F2937;
+    padding: 8px 120px;
+    display: flex;
+}
+
+.left, .right {
+    flex: 1;
+}
