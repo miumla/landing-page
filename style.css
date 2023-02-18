@@ -8,6 +8,8 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 1em;
 }
 
 a {
@@ -18,4 +20,8 @@ a {
 
 header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 120px;
 }
