@@ -28,7 +28,7 @@ header {
 
 .hero {
     background-color: #1F2937;
-    padding: 8px 120px;
+    padding: 80px 120px;
     display: flex;
 }
 
@@ -58,6 +58,9 @@ header {
 .right {
     background-color: grey;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left {
