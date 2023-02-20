@@ -11,6 +11,7 @@ body {
     flex-direction: column;
 }
 
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -45,16 +46,13 @@ footer {
 }
 
 .part-one, .part-two, .part-three, .part-four {
-  /*  padding: 80px 120px; */
     flex: 1;
     justify-content: center;
     align-items: center;
     display: flex;
-  /*   flex: 1 1 auto;
-   display: flex; 
-    justify-content: center;
-    align-items: center;
-    height: 100vh; */
+    min-height: 50vh;
+    
+    
 }
 .part-one {
     background-color: #1F2937;
@@ -65,10 +63,11 @@ footer {
     flex-direction: column;
     gap: 1em;
 }
-.hero {
+.hero, .info, .quote, .four {
     min-width: 80%;
     max-width: 80%;
-    padding: 10em 0;
+}
+.hero {
     display: flex;
     gap: 2em;
 }
