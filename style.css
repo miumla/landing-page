@@ -71,3 +71,10 @@ header {
 .left {
     padding: 16px 16px 16px 0;
 }
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
