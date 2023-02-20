@@ -59,7 +59,16 @@ footer {
 .part-one {
     background-color: #1F2937;
 }
+
+.part-two {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
 .hero {
+    min-width: 80%;
+    max-width: 80%;
+    padding: 10em 0;
     display: flex;
     gap: 2em;
 }
