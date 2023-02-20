@@ -89,5 +89,16 @@ header {
 .big-container {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.under-image {
+    font-size: 18px;
+    max-width: 150px;
 }
