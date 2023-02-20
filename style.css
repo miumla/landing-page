@@ -35,18 +35,17 @@ header {
 }
 
 .part-one, .part-two, .part-three {
-    flex: 1 1 auto;
-  /*  display: flex; */
+    padding: 80px 120px;
+  /*   flex: 1 1 auto;
+   display: flex; 
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; */
 }
 .part-one {
     background-color: #1F2937;
 }
 .hero {
-    
-  padding: 80px 120px;
     display: flex;
     gap: 2em;
 }
@@ -122,10 +121,9 @@ header {
 .part-three {
     background-color: #E5E7EB;
     display: flex;
+    padding: 80px 120px;
 }
-.quote {
-    max-width: 1000px;
-}
+
 .quote-text {
     font-size: 36px;
     font-style: italic;
