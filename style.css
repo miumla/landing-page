@@ -56,9 +56,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
-    
-    
+    min-height: 50vh;  
 }
 .part-one {
     background-color: #1F2937;
@@ -72,6 +70,8 @@ footer {
 .hero, .info, .quote, .four, .header, .footer {
     min-width: 80%;
     max-width: 80%;
+  /*  flex-wrap: wrap;
+    max-width: 80vh; */
     
 }
 .hero {
