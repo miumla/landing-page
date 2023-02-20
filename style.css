@@ -68,11 +68,12 @@ header {
     margin-bottom: 16px;
 }
 
-.button-one {
+.button-one, .button-two {
     color:#F9FAF8;
     background-color: #3882F6;
-    padding: 4px 16px;
+    padding: 8px 24px;
     border-radius: 5px;
+    font-size: 18px;
 }
 
 .right {
@@ -138,7 +139,7 @@ header {
 }
 .color-cont {
     background-color: #3882F6;
-    padding: 50px 70px;
+    padding: 50px 120px;
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
@@ -149,4 +150,7 @@ header {
     font-weight: bold;
     color:#F9FAF8;
     margin-bottom: 8px;
+}
+.button-two {
+    border: solid #F9FAF8;
 }
