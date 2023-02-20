@@ -34,7 +34,7 @@ header {
     padding: 8px 120px;
 }
 
-.part-one, .part-two, .part-three {
+.part-one, .part-two, .part-three, .part-four {
     padding: 80px 120px;
   /*   flex: 1 1 auto;
    display: flex; 
@@ -135,4 +135,12 @@ header {
 .author {
     text-align: end;
     font-weight: bold;
+}
+.color-cont {
+    background-color: #3882F6;
+    padding: 50px 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
