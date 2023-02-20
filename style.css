@@ -1,7 +1,11 @@
 body {
     height: 100vh;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
+
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -30,14 +34,21 @@ header {
     padding: 8px 120px;
 }
 
-.hero {
+.part-one {
     background-color: #1F2937;
-    padding: 80px 120px;
+    justify-content: center;
+    align-items: center;
+}
+.hero {
+    
+  padding: 80px 120px;
     display: flex;
+    gap: 2em;
 }
 
 .left, .right {
     flex: 1;
+    
 }
 
 .main-text {
@@ -70,6 +81,12 @@ header {
 
 .left {
     padding: 16px 16px 16px 0;
+}
+
+.part-two {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-title {
