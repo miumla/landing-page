@@ -34,10 +34,14 @@ header {
     padding: 8px 120px;
 }
 
-.part-one {
-    background-color: #1F2937;
+.part-one, .part-two, .part-three {
+    flex: 1 1 auto;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
+.part-one {
+    background-color: #1F2937;
 }
 .hero {
     
@@ -83,12 +87,6 @@ header {
     padding: 16px 16px 16px 0;
 }
 
-.part-two {
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-}
-
 .info-title {
     font-size: 36px;
     font-weight: 800;
@@ -118,4 +116,8 @@ header {
 .under-image {
     font-size: 18px;
     max-width: 150px;
+}
+
+.part-three {
+    background-color: #E5E7EB;
 }
