@@ -35,21 +35,27 @@ a {
 header, footer {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 8px 120px;
+    min-height: 10vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
     color: #E5E7EB;
-    justify-self: flex-end;
+    justify-self: center;
 }
 
 .part-one, .part-two, .part-three, .part-four {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: flex;
     min-height: 50vh;
     
     
@@ -63,9 +69,10 @@ footer {
     flex-direction: column;
     gap: 1em;
 }
-.hero, .info, .quote, .four {
+.hero, .info, .quote, .four, .header, .footer {
     min-width: 80%;
     max-width: 80%;
+    
 }
 .hero {
     display: flex;
